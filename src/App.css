@@ -2,37 +2,62 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.promociones p {
+  padding: 0 0 0.1% 2%;
+  margin: 0;
+  font: normal 20px/24px ECI;
+  color: #da1e1e;
+  font-weight: 600;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.promociones hr {
+  width: 96%;
+  margin: 0 2% 1% 2% ;
+  height: 2.5px;
+  background-color: red;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+body {
+  overflow-x: hidden;
+  -webkit-tap-highlight-color: rgba(255,255,255,0);
+}
+
+.nav-bar-blocks {
+  background-color: #fff;
+}
+
+div {
+  display: block;
+}
+
+@media only screen and (min-width: 48.0625em) {
+.nav-bar-container._main {
+    padding-bottom: 5px;
+}
+}
+
+.nav-bar-container._main {
+  background: #f5f5f5;
+  transition: none;
+}
+
+.nav-bar {
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  color: #3e3e3e;
+  position: relative;
+  height: 100%;
 }
 
-.App-link {
-  color: #61dafb;
+@media only screen and (min-width: 26.625em) {
+.vp {
+    padding: 0 1em;
+}
+}
+.vp {
+    position: relative;
+    margin: 10;
+    /* padding: 0 .5em; */
+    max-width: 90em;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
